@@ -3,6 +3,8 @@ Este es un documento con referencias rápidas sobre: lenguajes de programación,
 
 ## Lenguajes de Marcado
 
+* [HTML](https://github.com/srsergiorodriguez/relampagos/blob/master/html.md)
+
 ## Lenguajes de Estilo
 
 ## Lenguajes de Programación
