@@ -8,7 +8,7 @@ Este es un documento con referencias rápidas sobre: lenguajes de programación,
 * TEI (Formato de codificación de textos en XML)
 * JSON (Formato de intercambio de datos)
 
-## Lenguajes de estilo
+## Formatos de estilo
 
 * CSS
 
