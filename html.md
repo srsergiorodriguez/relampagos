@@ -1,4 +1,4 @@
-# HTML Relámpago
+# HTML Relámpago :zap:
 
 ## ¿Qué es HTML? :alien:
 
