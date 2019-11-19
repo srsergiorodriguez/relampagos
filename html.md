@@ -36,7 +36,7 @@ En términos generales, se define un documento HTML con la etiqueta 'html' y ade
 ```
 :exclamation: Nota dos cosas: 
 * Es una buena práctica usar indentaciones (o espacios al comienzo de la línea) para que el documento sea fácil de leer y para que sean evidentes las jerarquías. Así, tanto el 'head' como el 'body' están indentados para mostrar que se encuentran dentro de la etiqueta 'html'.
-* Para hacer comentarios dentro de html se usa una etiqueta como esta: <!–– aquí va el comentario ––>
+* Para hacer comentarios dentro de HTML se usa una etiqueta como esta: <!–– aquí va el comentario ––>
 
 ### :zap: Referencia relámpago de etiquetas del cuerpo del documento
 Aquí unos ejemplos de etiquetas comunes en HTML para el cuerpo del documento
