@@ -6,14 +6,14 @@ HTML o *Hypertext Markup Language* es un lenguaje de marcado con el que se descr
 
 ## ¿Cómo funciona? :sunglasses:
 
-HTML utiliza **etiquetas** para describir cada parte de la página web. Esas etiquetas sirven tanto para definir la presentación del documento como para definir sus cualidades semánticas.
+HTML utiliza **"etiquetas"** para describir cada parte de la página web. Esas etiquetas sirven tanto para definir la presentación del documento como para definir sus cualidades semánticas.
 Como HTML es una derivación del lenguaje de marcado SGML, las etiquetas se crean usando corchetes angulares ('<' y '>') que contienen el nombre del tipo de elemento. Algo como esto:
 
 `<etiqueta>Contenido</etiqueta>`
 
 :exclamation: Fíjate que la etiqueta de cierre tiene un '/' antes del nombre de la etiqueta.
 
-Adicionalmente, dentro de las etiquetas se puede definir información con respecto al elemento al especificar sus "atributos". Los atributos se escriben dentro de la etiqueta de apertura. Se escribe primero el atributo y luego el valor, separados por un igual "=". Algo así:
+Adicionalmente, dentro de las etiquetas se puede definir información con respecto al elemento al especificar sus **"atributos"**. Los atributos se escriben dentro de la etiqueta de apertura. Se escribe primero el atributo y luego el valor, separados por un igual "=". Algo así:
 
 `<etiqueta nombreDeAtributo="valorDelAtributo">Contenido</etiqueta>`
 
