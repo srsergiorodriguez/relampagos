@@ -1,17 +1,17 @@
 # HTML Relámpago
 
-## ¿Qué es HTML?
+## ¿Qué es HTML? :alien:
 
 HTML o *Hypertext Markup Language* es un lenguaje de marcado con el que se describen, categorizan y especifican las partes que componen una página web. Para una referencia mucho más exhaustiva de HTML, [clic aquí](https://developer.mozilla.org/es/docs/Web/HTML).
 
-## ¿Cómo funciona?
+## ¿Cómo funciona? :sunglasses:
 
 HTML utiliza **etiquetas** para describir cada parte de la página web. Esas etiquetas sirven tanto para definir la presentación del documento como para definir sus cualidades semánticas.
 Como HTML es una derivación del lenguaje de marcado SGML, las etiquetas se crean usando corchetes angulares ('<' y '>') que contienen el nombre del tipo de elemento. Algo como esto:
 
 `<etiqueta>Contenido</etiqueta>`
 
-Fíjate que la etiqueta de cierre tiene un '/' antes del nombre de la etiqueta.
+:exclamation: Fíjate que la etiqueta de cierre tiene un '/' antes del nombre de la etiqueta.
 
 Adicionalmente, dentro de las etiquetas se puede definir información con respecto al elemento al especificar sus "atributos". Los atributos se escriben dentro de la etiqueta de apertura. Se escribe primero el atributo y luego el valor, separados por un igual "=". Algo así:
 
@@ -34,11 +34,11 @@ En términos generales, se define un documento HTML con la etiqueta 'html' y ade
   </body>
 <html>
 ```
-Nota dos cosas: 
+:exclamation: Nota dos cosas: 
 * Es una buena práctica usar indentaciones (o espacios al comienzo de la línea) para que el documento sea fácil de leer y para que sean evidentes las jerarquías. Así, tanto el 'head' como el 'body' están indentados para mostrar que se encuentran dentro de la etiqueta 'html'.
 * Para hacer comentarios dentro de html se usa una etiqueta como esta: <!–– aquí va el comentario ––>
 
-### Referencia relámpago de etiquetas del cuerpo del documento
+### :zap: Referencia relámpago de etiquetas del cuerpo del documento
 Aquí unos ejemplos de etiquetas comunes en HTML para el cuerpo del documento
 
 #### Encabezados o títulos
@@ -185,7 +185,7 @@ Se ve así:
   </tr>
 </table>
 
-### Referencia relámpago de Atributos
+### :zap: Referencia relámpago de Atributos
 Aquí unos ejemplos de atributos comunes en HTML
 
 #### Clases
@@ -204,7 +204,7 @@ Permite definir características del estilo del documento a través del atributo
 
 `<div style="background: red;">Esto es un bloque rojo</div>`
 
-### Referencia relámpago de metadatos HTML
+### :zap: Referencia relámpago de metadatos HTML
 Aquí unos ejemplos de etiquetas comunes en HTML para los metadatos del documento
 
 #### Título de la página
