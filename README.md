@@ -24,3 +24,6 @@ Este es un documento con referencias rápidas sobre: lenguajes de programación,
 
 * graph.js
 * D3.js
+
+### ¡Colabora!
+Las referencias que aún no tienen un enlace no se han escrito aún pero están en la lista de espera. Si quieres colaborar con la creación de uno de estos relámpagos, puedes proponerte como colaborador de este repositorio.
