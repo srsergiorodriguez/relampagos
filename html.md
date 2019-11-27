@@ -7,13 +7,13 @@ HTML, *Hypertext Markup Language*, o Lenguaje de Marcado de Hipertexto, es un le
 ## ¿Cómo funciona? :sunglasses:
 
 HTML utiliza **"etiquetas"** para describir cada parte de la página web. Esas etiquetas sirven tanto para definir la presentación del documento como para definir sus cualidades semánticas.
-Como HTML es una derivación del lenguaje de marcado SGML, las etiquetas se crean usando corchetes angulares ('<' y '>') que contienen el nombre del tipo de elemento. Algo como esto:
+Como HTML es una derivación del lenguaje de marcado [SGML](https://es.wikipedia.org/wiki/SGML), las etiquetas se crean usando corchetes angulares ('<' y '>') que contienen el nombre del tipo de elemento. Algo como esto:
 
 `<etiqueta>Contenido</etiqueta>`
 
 :exclamation: Fíjate que la etiqueta de cierre tiene un '/' antes del nombre de la etiqueta.
 
-Adicionalmente, dentro de las etiquetas se puede definir información con respecto al elemento al especificar sus **"atributos"**. Los atributos se escriben dentro de la etiqueta de apertura. Se escribe primero el atributo y luego el valor, separados por un igual '='. Algo así:
+Adicionalmente, dentro de las etiquetas se puede definir información con respecto al elemento al especificar sus **"atributos"**. Los atributos se escriben dentro de la etiqueta de apertura. Se escribe primero el 'atributo' y luego su 'valor', separados por un igual '='. Algo así:
 
 `<etiqueta nombreDeAtributo="valorDelAtributo">Contenido</etiqueta>`
 
@@ -35,8 +35,9 @@ En términos generales, se define un documento HTML con la etiqueta 'html' y ade
 <html>
 ```
 :exclamation: Nota dos cosas: 
-* Es una buena práctica usar indentaciones (o espacios al comienzo de la línea) para que el documento sea fácil de leer y para que sean evidentes las jerarquías. Así, tanto el 'head' como el 'body' están indentados para mostrar que se encuentran dentro de la etiqueta 'html'.
-* Para hacer comentarios dentro de HTML se usa una etiqueta como esta: <!–– aquí va el comentario ––>
+* Es una buena práctica usar indentaciones (o espacios al comienzo de la línea) para que el documento sea fácil de leer y para que sean evidentes las jerarquías (o sea, los elementos que están contenidos dentro de otros elementos). Así, tanto el 'head' como el 'body' están indentados para mostrar que se encuentran dentro de la etiqueta 'html'.
+* Para hacer comentarios dentro de HTML se usa una etiqueta como esta: `<!–– aquí va el comentario ––>`
+
 
 ### :zap: Referencia relámpago de etiquetas del cuerpo del documento
 Aquí unos ejemplos de etiquetas comunes en HTML para el cuerpo del documento
@@ -111,7 +112,7 @@ En el documento final se ven así:
 </ol>
 
 #### Bloques o divisores
-Se usan para contener partes del Documento que están marcadas con otras etiquetas:
+Se usan para contener partes del Documento que están marcadas con otras etiquetas. Son muy útiles para organizar la jerarquía del documento y, posteriormente, para definir los bloques de estilo:
 
 `<div></div>`
 
@@ -213,7 +214,7 @@ Se muestra en la parte superior o en la pestaña del explorador:
 `<title>Título de la página</title>`
 
 #### Enlace externo
-Se usa para referenciar un enlace externo, comúnmente una hoja de estilo escrita en CSS. Se usa el atributo 'href' para definir el enlace.
+Se usa para referenciar un enlace externo, comúnmente una hoja de estilo escrita en [CSS](https://github.com/srsergiorodriguez/relampagos/blob/master/css.md). Se usa el atributo 'href' para definir el enlace.
 
 `<link href="/enlace/a/hoja/de/estilo.css" rel="stylesheet">`
 
@@ -224,7 +225,7 @@ Se usa para referenciar un enlace externo, comúnmente un código de programaci�
 
 
 #### Estilo CSS
-Se usa para definir características del estilo de presentación del documento en formato CSS.
+Se usa para definir características del estilo de presentación del documento en formato [CSS](https://github.com/srsergiorodriguez/relampagos/blob/master/css.md).
 
 ```
 <style type="text/css">
