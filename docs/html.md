@@ -214,7 +214,7 @@ Se muestra en la parte superior o en la pestaña del explorador:
 `<title>Título de la página</title>`
 
 #### Enlace externo
-Se usa para referenciar un enlace externo, comúnmente una hoja de estilo escrita en [CSS](https://github.com/srsergiorodriguez/relampagos/blob/master/css.md). Se usa el atributo 'href' para definir el enlace.
+Se usa para referenciar un enlace externo, comúnmente una hoja de estilo escrita en [CSS](https://github.com/srsergiorodriguez/relampagos/blob/master/docs/css.md). Se usa el atributo 'href' para definir el enlace.
 
 `<link href="/enlace/a/hoja/de/estilo.css" rel="stylesheet">`
 
@@ -225,7 +225,7 @@ Se usa para referenciar un enlace externo, comúnmente un código de programaci�
 
 
 #### Estilo CSS
-Se usa para definir características del estilo de presentación del documento en formato [CSS](https://github.com/srsergiorodriguez/relampagos/blob/master/css.md).
+Se usa para definir características del estilo de presentación del documento en formato [CSS](https://github.com/srsergiorodriguez/relampagos/blob/master/docs/css.md).
 
 ```
 <style type="text/css">
