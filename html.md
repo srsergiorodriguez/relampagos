@@ -2,7 +2,7 @@
 
 ## ¿Qué es HTML? :alien:
 
-HTML o *Hypertext Markup Language* es un lenguaje de marcado con el que se describen, categorizan y especifican las partes que componen una página web. Para una referencia mucho más exhaustiva de HTML, [clic aquí](https://developer.mozilla.org/es/docs/Web/HTML).
+HTML, *Hypertext Markup Language*, o Lenguaje de Marcado de Hipertexto, es un lenguaje de marcado con el que se describen, categorizan y especifican las partes que componen una página web. Para una referencia mucho más exhaustiva de HTML, [haz clic aquí](https://developer.mozilla.org/es/docs/Web/HTML).
 
 ## ¿Cómo funciona? :sunglasses:
 
