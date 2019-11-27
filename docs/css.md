@@ -12,7 +12,7 @@ Primero que todo, hay tres maneras de añadir estilo sobre los elementos de un d
 
 `<p style="color: red">Esto es un párrafo rojo</p>`
 
-:exclamation: ¿Lo de atributos de un elemento suena extraño? ¡Entonces remóntate al [relámpago sobre HTML](https://github.com/srsergiorodriguez/relampagos/blob/master/html.md)!
+:exclamation: ¿Lo de atributos de un elemento suena extraño? ¡Entonces remóntate al [relámpago sobre HTML](https://github.com/srsergiorodriguez/relampagos/blob/master/docs/html.md)!
 
 Otra opción consiste en usar la etiqueta 'style' dentro de un documento HTML. Todo lo que se ponga dentro de la etiqueta se usará para dar estilo al documento.
 
