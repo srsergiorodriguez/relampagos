@@ -14,7 +14,7 @@ Este es un documento con referencias rápidas sobre: lenguajes de programación,
 
 ## Lenguajes de programación
 
-* JavaScript
+* [JavaScript](https://github.com/srsergiorodriguez/relampagos/blob/master/docs/javascript.md)
 
 ## Librerías de programación creativa
 
