@@ -12,7 +12,7 @@ Para usar p5 se debe crear una referencia al archivo que contiene la librería e
 
 `<script src="p5.min.js"></script>`
 
-:exclamation: el (archivo)[https://p5js.org/download/] con la librería puede incluirse dentro de los archivos de la aplicación, o puede provenir de un servicio de distribución como este [CDN](https://cdn.jsdelivr.net/npm/p5).
+:exclamation: el [archivo](https://p5js.org/download/) con la librería puede incluirse dentro de los archivos de la aplicación, o puede provenir de un servicio de distribución como este [CDN](https://cdn.jsdelivr.net/npm/p5).
 
 :exclamation: una forma fácil y rápida de escribir código con p5 es usar su [editor web](https://editor.p5js.org/), una interfaz interactiva que permite usar la librería desde el explorador.
 
