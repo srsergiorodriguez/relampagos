@@ -1,13 +1,10 @@
 # JavaScript Relámpago :zap:
 
 ## ¿Qué es JavaScript? :alien:
-
 JavaScript es un lenguaje de programación desarrollado para que sus programas sean ejecutados directamente en el navegador web. Por este motivo, este lenguaje se integra muy bien al lenguaje de marcado de documentos web [HTML](https://github.com/srsergiorodriguez/relampagos/blob/master/docs/html.md) y al formato de estilo [CSS](https://github.com/srsergiorodriguez/relampagos/blob/master/docs/css.md). Para información más detallada sobre el lenguaje [clic aquí](https://developer.mozilla.org/es/docs/Web/JavaScript).
 
 ## ¿Cómo funciona? :sunglasses:
-
 ### Añadir código a un documento HTML
-
 Primero hay que añadir el código a un documento HTML para que pueda ser ejecutado. Eso se puede hacer de dos formas. La primera, poniendo el código de JavaScript dentro de etiquetas 'script':
 
 ```
@@ -26,16 +23,14 @@ Primero hay que añadir el código a un documento HTML para que pueda ser ejecut
 
 La segunda, poniendo el camino o enlace al código en el atributo 'src' de una etiqueta 'script':
 
-`<script src="p5.min.js"></script>`
+`<script src="enlace/al/codigo.js"></script>`
 
 :exclamation: Los archivos de JavaScript tienen la extensión .js
 
 :speak_no_evil: Este relámpago no incluye una explicación exhaustiva de los principios de la programación computacional, solo funciona como una hoja de recuerdo o *cheatsheet* para mantener fresca la memoria.
 
 ### Referencia relámpago de la sintaxis de JavaScript :zap:
-
 #### Variables y tipos de datos
-
 En Javascript se pueden **declarar** variables usando tres palabras clave diferentes: **'var'**, **'let'** y **'const'**. Tanto 'var' como 'let' sirven para crear variables que se pueden reasignar (aunque 'var' ha caído en desuso y ya no se recomienda usarla, pero no sobra saber que existe). Por otro lado, 'const' sirve para crear variables constantes, o sea, variables que no pueden variar, paradójicamente.
 Para **asignar** valores a una variable se usa un igual '=' seguido por el valor. Se puede declarar y asignar al mismo tiempo.
 
@@ -64,7 +59,6 @@ let nulo = null // nulos
 let ind = undefined // indefinidios
 
 ##### Estructuras de datos
-
 Se pueden crear, además, **arrays** (o listas ordenadas) y **objetos** (o estructuras de datos con clave-valor).
 
 Para crear una array se declara su nombre y luego, entre llaves cuadradas '[]', se listan sus elementos separados por comas ','. Para leer alguno de los elementos o asignar un nuevo valor se pone el índice del elemento entre llaves cuadradas después del nombre de la array. 
@@ -94,11 +88,9 @@ gato["ojos"] = "amarillos";
 :exclamation: Los objetos sirven para describir estructuras de datos complejas y son la base del formato de intercambio JSON (JavaScript Object Notation)
 
 #### Operaciones
-
 En JavaScript se pueden hacer las operaciones típicas de cualquier lenguaje de programación
 
 ##### Aritméticas
-
 Sumar, restar, multiplicar, dividir, módulo y otras...
 
 ```
@@ -116,7 +108,6 @@ let modulo = 5 % 2;
 
 
 ##### Asignación
-
 Algunas versiones abreviadas de reasignación
 
 ```
@@ -130,7 +121,6 @@ a /= 5 // divide a en 5
 
 
 ##### Lógicas
-
 Devuelven valores booleanos
 
 ```
@@ -140,7 +130,6 @@ let no = !true; // negación
 ```
 
 ##### Comparadores
-
 Devuelven valores booleanos
 
 ```
@@ -157,7 +146,6 @@ let p = "gato" != "perro"; // diferente a (con strings)
 ```
 
 #### Condicionales
-
 Para hacer condicionales se usan las palabras clave 'if', 'else if' y 'else'. If establece la primera condición, 'else if' las condiciones siguientes, y 'else' engloba el resto de posibilidades si no se cumple ninguna de las condiciones anteriores.
 Las condiciones deben ponerse entre paréntesis '()' y el código que se ejecutará si se cumple la función debe ponerse entre corchetes '{}'.
 
@@ -174,9 +162,7 @@ else if (clima == "cálido") {
 ```
 
 #### Loops (o ciclos)
-
 ##### while-loop
-
 Se cumple mientras la condición sea cierta. Se usa la palabra clave 'while' seguida de unos paréntesis que encierran la condición '()' y unos corchetes que encierran el código que se repetirá '{}'
 
 ```
@@ -189,7 +175,6 @@ while (contador < 10) {
 ```
 
 ##### for-loop
-
 Se cumple mientras la condición sea cierta. Pero tiene una sintaxis particular:
 Primero se usa la palabra clave 'for', luego, entre paréntesis, se pone lo siguiente separado por puntos y comas ';': una declaración que sirve como contador del loop, una condición que debe ser cierta para que se repita el loop, una acción (normalmente sobre el contador).
 
@@ -203,7 +188,6 @@ for (let i = 0; i < 10; i++) {
 :exclamation: nota que este for-loop hace lo mismo que el while-loop anterior, pero tiene una sintaxis más comprimida
 
 #### Funciones
-
 Se crean usando la palabra clave 'function', luego se pone un nombre a la función, entre paréntesis '()' se ponen sus argumentos (o parámetros) y entre corchetes '{}' se pone el código que se ejecuta cuando se llama la functión. Si se quiere devolver algún valor se usa la palabra clave 'return'
 
 ```
@@ -220,7 +204,6 @@ Para llamar una función se usa el nombre seguido de unos paréntesis que contie
 :exclamation: Cuando una función no tiene argumentos se dejan los paréntesis vacíos.
 
 ##### Sintaxis de flechita
-
 La sintaxis de flechita es una versión reducida que sirve para crear funciones anónimas (funciones que solo se usarán una vez y que no requieren un nombre). Hay varias versiones de la sintaxis de flechita, cada una más reducida que la anterior. Sin embargo, siguen un formato común: argumentos o paréntesis vacíos seguidos de una flecha '=>' (signo igual y mayor que) seguidos por lo que debe retornar la función.
 
 ```
@@ -249,23 +232,20 @@ x => y
 
 
 #### Funciones útiles y comunes
+Algunas funciones por defecto del lenguaje que se usan muy a menudo
 
-Algunas funciones por defecto del legnuaje que se usan muy a menudo
+`console.log(valor)` -> imprime algún valor o string en la consola
 
+`console.table(array)` -> muestra una array anidada como una tabla en la consola
 
-```
-console.log(valor) // imprime algún valor o string en la consola
-console.table(array) // muestra una array anidada como una tabla en la consola
+`array.push(valor)` -> añade un elemento al final de una array
 
-array.push(valor) // añade un elemento al final de una array
-array.pop() // devuelve y saca de la array el último valor
+`array.pop()` -> devuelve y saca de la array el último valor
 
-Math.random() // devuelve un número al azar entre 0 y 1
+`Math.random()` -> devuelve un número al azar entre 0 y 1
 
-Math.sin(valor) // devuelve el seno de algún valor (en radianes)
-Math.cos(valor) // devuelve el cos de algún valor (en radianes)
-Math.tan(valor) // devuelve el tangente de algún valor (en radianes)
+`Math.sin(valor)`, `Math.cos(valor)` -> devuelve el Seno, Coseno o Tangente de algún valor (en radianes), respectivamente
 
-array.map(x=>{return x*y}) // devuelve una array luego de haber aplicado la misma función a todos los elementos de la array original
+`array.map(elemento=>{return elemento*operacion})` -> devuelve una array luego de haber aplicado la misma función a todos los elementos de la array original
 
 ```
