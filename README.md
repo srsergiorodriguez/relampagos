@@ -18,7 +18,7 @@ Este es un documento con referencias rápidas sobre: lenguajes de programación,
 
 ## Librerías de programación creativa
 
-* p5.js
+* [p5.js](https://github.com/srsergiorodriguez/relampagos/blob/master/docs/p5js.md)
 
 ## Librerías de visualización de datos
 
