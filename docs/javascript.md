@@ -51,12 +51,14 @@ z = 31; // reasigna a z el valor 31
 
 Los tipos de datos que se pueden declarar en Javascript son:
 
+```
 let num = 15; // números... tanto enteros como
 let numf = 0.00001; // de punto flotante (decimales)
 let str = "Hola" // strings o cadenas de caracteres
 let boo = true // booleanos (true o false)
 let nulo = null // nulos
 let ind = undefined // indefinidios
+
 
 ##### Estructuras de datos
 Se pueden crear, además, **arrays** (o listas ordenadas) y **objetos** (o estructuras de datos con clave-valor).
