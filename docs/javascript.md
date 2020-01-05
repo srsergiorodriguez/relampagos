@@ -57,7 +57,8 @@ let numf = 0.00001; // de punto flotante (decimales)
 let str = "Hola" // strings o cadenas de caracteres
 let boo = true // booleanos (true o false)
 let nulo = null // nulos
-let ind = undefined // indefinidios
+let ind = undefined // indefinidos
+```
 
 
 ##### Estructuras de datos
