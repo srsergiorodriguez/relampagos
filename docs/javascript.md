@@ -75,7 +75,7 @@ let num0 == arr[0]; // el primer elemento de la array (el 5)
 
 :exclamation: Los índices de las arrays empiezan por 0
 
-Para crear una array se declara su nombre y luego, entre corchetes '{}', se describen sus elementos usando una clave seguida de dos puntos ':' y el valor. Cada par clave-valor se separa con comas ','. Para leer alguno de los elementos o asignar un nuevo valor se pone el nombre del objeto seguido de un punto '.' y luego la clave del elemento. También se puede poner la llave entre comillas '""' y luego entre llaves cuadradas después del nombre del objeto.
+Para crear un objeto se declara su nombre y luego, entre corchetes '{}', se describen sus elementos usando una clave seguida de dos puntos ':' y el valor. Cada par clave-valor se separa con comas ','. Para leer alguno de los elementos o asignar un nuevo valor se pone el nombre del objeto seguido de un punto '.' y luego la clave del elemento. También se puede poner la llave entre comillas '""' y luego entre llaves cuadradas después del nombre del objeto.
 
 ```
 let gato = {
