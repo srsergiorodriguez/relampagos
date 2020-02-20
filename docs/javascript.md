@@ -70,7 +70,7 @@ Para crear una array se declara su nombre y luego, entre llaves cuadradas '[]', 
 // una array de números
 let arr = [5, 10, 40, 3, 6];
 
-let num0 == arr[0]; // el primer elemento de la array (el 5)
+let num0 = arr[0]; // el primer elemento de la array (el 5)
 ```
 
 :exclamation: Los índices de las arrays empiezan por 0
