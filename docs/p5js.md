@@ -119,7 +119,7 @@ textFont(fuente); // Cambia la fuente
 
 `mouseX` y `mouseY` -> Devuelven la posición X y Y del mouse, respectivamente
 
-`loadImage(url_o_archivo, callback)` y `image(imagen, x, y)` -> Carga una imagen en el sketch, muestra la imagen en el canvas, respectivamente. **loadImage** Se suele usar dentro de la función optional `preload()`
+`loadImage(url_o_archivo, callback)` y `image(imagen, x, y)` -> Carga una imagen en el sketch, muestra la imagen en el canvas, respectivamente. **loadImage** Se suele usar dentro de la función opcional `preload()`
 
 ### Maniulación del DOM
 p5 permite crear y manipular elementos del [DOM](https://es.wikipedia.org/wiki/Document_Object_Model) de tu documento html a través del código. Estas son algunas de las funciones básicas al respecto:
