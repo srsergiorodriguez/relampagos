@@ -57,7 +57,7 @@ h1 {
   /* aquí va el estilo */
 }
 
-/* esto selecciona el elemento con la ientificación 'unico' */
+/* esto selecciona el elemento con la identificación 'unico' */
 
 #unico {
   /* aquí va el estilo */
