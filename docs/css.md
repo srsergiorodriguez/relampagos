@@ -79,7 +79,7 @@ selector {
 
 :speak_no_evil: Hacer un recuento de todas las propiedades que pueden modificar el estilo de un documento tomaría mucho más tiempo y espacio que el que tenemos en este relámpago. CSS es todo un sistema de diseño, así que se requiere práctica y estudio para dominarlo. Sin embargo, aquí mencionaremos algunas propiedades básicas que se usan a menudo.
 
-:pray: Ante la duda, busca en una referencia más completa cómo se usa alguna de las propiedades (por ejemplo, [esta](https://www.w3schools.com/css/css_intro.asp)). O busca en google la pregunta de estilo específica que tengas: cosas "cómo cambio el color del borde de un título en css" siempre tienen respuesta en internet.
+:pray: Ante la duda, busca en una referencia más completa cómo se usa alguna de las propiedades (por ejemplo, [esta](https://www.w3schools.com/css/css_intro.asp)). O busca en google la pregunta de estilo específica que tengas: cosas como "cómo cambio el color del borde de un título en css" siempre tienen respuesta en internet.
 
 ### :zap: Referencia relámpago de propiedades CSS
 
