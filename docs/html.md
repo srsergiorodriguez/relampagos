@@ -70,9 +70,9 @@ Se debe poner el atributo 'href' que referencia el enlace al que queremos direcc
 
 #### Imágenes
 
-Se debe poner el atributo 'source' que direcciona al enlace o camino de la imagen, y también el atributo 'alt' que contiene un texto alternativo cuando la imagen no se puede presentar. No se usa etiqueta de cierre:
+Se debe poner el atributo 'source' que direcciona al enlace o camino de la imagen, y también el atributo 'alt' que contiene un texto alternativo cuando la imagen no se puede presentar. No se usa etiqueta de cierre, pero sí un 'autocerrado' (un slash al final de la etiqueta):
 
-`<img src="/enlace/a/la/imagen.png" alt="Texto alternativo">`
+`<img src="/enlace/a/la/imagen.png" alt="Texto alternativo" />`
 
 #### Listas
 Pueden ser ordenadas o desordenadas. Para las desordenadas se usa la etiqueta 'ul' y para las ordenadas la etiqueta 'ol'. Cada elemento de la lista se marca con 'li'.
