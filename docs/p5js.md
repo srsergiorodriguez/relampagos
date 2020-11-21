@@ -53,7 +53,7 @@ noStroke(); // quita el color de línea
 ```
 
 ### Formas
-p5 permite crear varios tipos de formas primitivas. Están listadas a continuación junto sus parámetros más comunes.
+p5 permite crear varios tipos de formas primitivas. Están listadas a continuación junto a sus parámetros más comunes.
 
 ```
 point(x1, y1); // dibuja un punto
@@ -71,7 +71,7 @@ triangle(x1, y1, x2, y2, x3, y3); // dibuja un triángulo
 quad(x1, y1, x2, y2, x3, y3, x4, y4); // dibuja un polígono de cuatro lados
 ```
 
-:exclamation: Es importante tener presente que las cada función usa puntos de referencia diferentes para dibujar las formas. Por ejemplo, las elipses y los círculos se dibujan con respecto al centro, mientras que los rectángulos se dibujan con respecto a la esquina superior derecha. Para cambiar el punto de referencia se debe usar la función `elipseMode()` o `rectMode()`.
+:exclamation: Es importante tener presente que cada función usa puntos de referencia diferentes para dibujar las formas. Por ejemplo, las elipses y los círculos se dibujan con respecto al centro, mientras que los rectángulos se dibujan con respecto a la esquina superior derecha. Para cambiar el punto de referencia se debe usar la función `elipseMode()` o `rectMode()`.
 
 Para crear formas más complexas se debe usar las funciones de curvas de bezier y vértices. Para entender este tipo de formas, recomiendo [este libro](https://programmingdesignsystems.com/shape/custom-shapes/index.html#custom-shapes-pANLh0l) como referencia.
 
@@ -130,7 +130,7 @@ p5 permite crear y manipular elementos del [DOM](https://es.wikipedia.org/wiki/D
 
 `createElement(elemento)` -> Crea un elemento del DOM del tipo especificado.
 
-También es posible crear algunos elementos particulares con funciones especializadas. Aquí hay algunos de los máscomunes
+También es posible crear algunos elementos particulares con funciones especializadas. Aquí hay algunos de los más comunes
 
 ```
 createDiv(html); // crea un divisor
