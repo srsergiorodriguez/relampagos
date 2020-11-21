@@ -191,7 +191,7 @@ for (let i = 0; i < 10; i++) {
 :exclamation: nota que este for-loop hace lo mismo que el while-loop anterior, pero tiene una sintaxis más comprimida
 
 #### Funciones
-Se crean usando la palabra clave 'function', luego se pone un nombre a la función, entre paréntesis '()' se ponen sus argumentos (o parámetros) y entre corchetes '{}' se pone el código que se ejecuta cuando se llama la functión. Si se quiere devolver algún valor se usa la palabra clave 'return'
+Se crean usando la palabra clave 'function', luego se pone un nombre a la función, entre paréntesis '()' se ponen sus argumentos (o parámetros) y entre corchetes '{}' se pone el código que se ejecuta cuando se llama la función. Si se quiere devolver algún valor se usa la palabra clave 'return'
 
 ```
 function duplicar(num) {
