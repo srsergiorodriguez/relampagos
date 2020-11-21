@@ -68,7 +68,7 @@ h1 {
 
 ### Las propiedades de estilo
 
-Dentro de los corchetes que van después de cada selector se pone el bloque de reglas para ese selector particular. Ese bloque es un conjuto de **"propiedades"** de estilo que describen cómo se verá el elemento o cómo se organizará en relación con la estructura del documento o de los otros elementos.
+Dentro de los corchetes que van después de cada selector se pone el bloque de reglas para ese selector particular. Ese bloque es un conjunto de **"propiedades"** de estilo que describen cómo se verá el elemento o cómo se organizará en relación con la estructura del documento o de los otros elementos.
 Las propiedades se describen usando el **nombre** de la propiedad, seguido por **dos puntos** ':', seguido por un **valor** y cerrado por un punto y coma ';':
 
 ```
@@ -98,7 +98,7 @@ div {
 }
 ```
 
-:exclamation: el selector 'div' en este caso es solo un ejemplo, recuerda que estar reglas se pueden aplicar sobre otros tipos de elementos en el DOM, sobre clases o sobre elementos particulares con identificación.
+:exclamation: el selector 'div' en este caso es solo un ejemplo, recuerda que estas reglas se pueden aplicar sobre otros tipos de elementos en el DOM, sobre clases o sobre elementos particulares con identificación.
 
 #### Propiedades de texto
 Aquí unos ejemplos de propiedades comunes que modifican un texto
