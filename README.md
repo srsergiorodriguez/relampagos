@@ -1,5 +1,5 @@
 # :zap: Relámpagos :zap:
-Este es un documento con referencias rápidas sobre: lenguajes de programación, lenguajes de marcado y librerías utiles para humanistas digitales
+Este es un documento con referencias rápidas sobre: lenguajes de programación, lenguajes de marcado y librerías útiles para humanistas digitales
 
 ## Lenguajes de marcado y formatos de intercambio
 
